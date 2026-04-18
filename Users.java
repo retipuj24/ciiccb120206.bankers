@@ -6,3 +6,11 @@ public class Users {
     String address;
     double balance;
 }
+//team panda: generate constructors and getters+setters
+//team panda eof
+
+//pata team : generate login
+//pata team  eof
+
+// team psvm
+// team psvm eof
