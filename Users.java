@@ -71,10 +71,6 @@ public class Users {
     // pata team : generate login
     public class Login {
 
-        // public static boolean login(Users user, String mobileNumber, int pin) {
-        // return user.getMobileNumber().equals(mobileNumber) && user.getPin() == pin;
-        // }
-
         public static boolean isValidUser(String mobileNumber, int pin, ArrayList<Users> usersList) {
             boolean isValid = usersList.stream()
                     .anyMatch(user -> user.getMobileNumber().equals(mobileNumber) && user.getPin() == pin);
